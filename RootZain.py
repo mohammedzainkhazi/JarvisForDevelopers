@@ -159,9 +159,9 @@ if __name__ == '__main__':
 			speak('to Whom shall I send Sir ?')
 			to = takeCommand().lower()
 			if 'mum' in to:
-				to = '8073532016'
+				to = '<phone num>'
 			elif 'dad' in to:
-				to = '8722430959'
+				to = '<phone num>'
 			else:
 				speak('I didnt know the person, can you input the number?') 
 				to = input()
